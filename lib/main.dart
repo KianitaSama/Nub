@@ -104,9 +104,10 @@ class Nub extends StatefulWidget {
                           Expanded(
                             child:
                             IconButton(
-                              icon: Icon(Icons.send),                               color: Colors.grey,
+                              icon: Icon(Icons.send), color: Colors.grey,
                                 onPressed: (){
                                 colocar(txtMensaje.text);
+                                  txtMensaje.text = '';
                   },
                  ),
                 )
